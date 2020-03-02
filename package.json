@@ -1,0 +1,23 @@
+{
+  "name": "node.js-express-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "mkdir -p data && docker-compose up -d",
+    "stop": "docker-compose stop",
+    "down": "docker-compose down",
+    "dev": "npm run dev --prefix api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faruqneo/Node.js-Express-Authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faruqneo/Node.js-Express-Authentication/issues"
+  },
+  "homepage": "https://github.com/faruqneo/Node.js-Express-Authentication#readme"
+}
