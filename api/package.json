@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "@types/hapi__joi": "^16.0.12",
     "connect-redis": "^4.0.4",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
