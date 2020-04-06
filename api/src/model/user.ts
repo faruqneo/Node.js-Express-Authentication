@@ -10,8 +10,6 @@ const userSchema = new Schema({
     email: String,
     name: String,
     password: String
-}, {
-    timestamps: true
-});
+}, { timestamps: true });
 
 export const User = model<UserDocument>('Users', userSchema)

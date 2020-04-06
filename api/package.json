@@ -14,11 +14,15 @@
   "dependencies": {
     "@hapi/joi": "^17.1.0",
     "@types/hapi__joi": "^16.0.12",
+    "@types/helmet": "0.0.45",
+    "@types/morgan": "^1.9.0",
     "connect-redis": "^4.0.4",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
+    "helmet": "^3.22.0",
     "ioredis": "^4.16.0",
-    "mongoose": "^5.9.2"
+    "mongoose": "^5.9.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@types/connect-redis": "0.0.13",
